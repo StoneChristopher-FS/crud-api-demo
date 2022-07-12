@@ -1,0 +1,29 @@
+GET http://localhost:8000/students
+
+###
+
+GET http://localhost:8000/students/62cbb794bdf652c8fb24c170
+
+###
+
+POST http://localhost:8000/students
+Content-Type: application/json
+
+{
+    "name": "Christopher Stone",
+    "class": "DWA"
+}
+
+###
+
+DELETE http://localhost:8000/students/62cbb794bdf652c8fb24c170
+
+###
+
+PATCH http://localhost:8000/students/62cbb6fed971bc2126c2fe96
+Content-Type: application/json
+
+{
+    "name": "Christopher Stone",
+    "class": "DWA"
+}
