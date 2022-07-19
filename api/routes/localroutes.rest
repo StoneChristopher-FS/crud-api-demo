@@ -10,7 +10,7 @@ POST http://localhost:8000/students
 Content-Type: application/json
 
 {
-    "name": "Christopher Stone",
+    "name": "Christopher Test",
     "class": "DWA"
 }
 
